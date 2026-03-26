@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Uploads (user-generated runtime data)
+uploads/
+
+# Large data directories
+dating_opt/
+dating_opt.zip
+
+# Replit artifacts
+.replit-artifact/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

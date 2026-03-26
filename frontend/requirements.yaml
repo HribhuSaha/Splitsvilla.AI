@@ -1,0 +1,27 @@
+packages:
+  "framer-motion": "Animations for dramatic page transitions and component reveals"
+  "@hookform/resolvers": "Zod validation for forms"
+  "react-hook-form": "Form state management"
+  "zod": "Schema validation for forms"
+  "date-fns": "Date formatting for tasks and activity feeds"
+  "clsx": "Class name merging"
+  "tailwind-merge": "Class name merging"
+
+images:
+  - path: "artifacts/splitsvilla/public/images/villa-night.png"
+    description: "A dark, moody, luxurious tropical villa at night, illuminated by dramatic neon pink and cyan lights. Palm trees silhouetted against a starry sky. Romantic and intense."
+    aspect_ratio: "16:9"
+  - path: "artifacts/splitsvilla/public/images/oracle-crystal.png"
+    description: "A glowing, mystical crystal ball sitting on an ornate pedestal in a dark jungle setting. Magical purple and gold smoke swirls around it. Intense dramatic lighting."
+    aspect_ratio: "16:9"
+  - path: "artifacts/splitsvilla/public/images/contestant-placeholder-1.png"
+    description: "A stylish silhouette of a person standing against a sunset tropical background, dramatic lighting."
+    aspect_ratio: "1:1"
+  - path: "artifacts/splitsvilla/public/images/contestant-placeholder-2.png"
+    description: "A mysterious silhouette of a person in a luxurious pool setting at night, moody neon lighting."
+    aspect_ratio: "1:1"
+
+notes:
+  - Using generated hooks from @workspace/api-client-react
+  - Implementing custom SSE stream hook for Oracle chat
+  - Assuming all API requests are prefixed with /api (handled by customFetch internally)
